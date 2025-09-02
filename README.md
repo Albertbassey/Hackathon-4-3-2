@@ -7,6 +7,15 @@
 ## 🚀 Overview
 
 LessonCraft AI is a web-based tool built for educators, enabling them to create structured, engaging, and curriculum-aligned lesson plans in seconds. Designed for speed, simplicity, and real-world impact, this project supports **SDG 4: Quality Education** and is optimized for deployment in resource-constrained environments.
+---
+## My Hackathon Link to LessonCraft AI
+
+    https://414718-81425b78fe9b4f34bbb028f56a53c074-6-latest.app.mgx.dev/
+
+## Pitch Slides Link:
+
+    https://www.canva.com/design/DAGxpz60MiI/yRWYKbOZQtSGRZmoXPMtHg/view?utm_content=DAGxpz60MiI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he8262960df#15
+
 
 ---
 
