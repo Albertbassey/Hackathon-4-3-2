@@ -1,68 +1,130 @@
-# Shadcn-UI Template Usage Instructions
+# 📚 LessonCraft AI
 
-## technology stack
+**Empowering teachers to generate curriculum-aligned lesson plans instantly using AI and low-code tools.**
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🚀 Overview
 
-All shadcn/ui components have been downloaded under `@/components/ui`.
+LessonCraft AI is a web-based tool built for educators, enabling them to create structured, engaging, and curriculum-aligned lesson plans in seconds. Designed for speed, simplicity, and real-world impact, this project supports **SDG 4: Quality Education** and is optimized for deployment in resource-constrained environments.
+---
+## My Hackathon Link to LessonCraft AI
 
-## File Structure
+    https://414718-81425b78fe9b4f34bbb028f56a53c074-6-latest.app.mgx.dev/
 
-- `index.html` - HTML entry point
-- `vite.config.ts` - Vite configuration file
-- `tailwind.config.js` - Tailwind CSS configuration file
-- `package.json` - NPM dependencies and scripts
-- `src/app.tsx` - Root component of the project
-- `src/main.tsx` - Project entry point
-- `src/index.css` - Existing CSS configuration
-- `src/pages/Index.tsx` - Home page logic
+## Pitch Slides Link:
 
-## Components
+    https://www.canva.com/design/DAGxpz60MiI/yRWYKbOZQtSGRZmoXPMtHg/view?utm_content=DAGxpz60MiI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he8262960df#15
 
-- All shadcn/ui components are pre-downloaded and available at `@/components/ui`
 
-## Styling
+---
 
-- Add global styles to `src/index.css` or create new CSS files as needed
-- Use Tailwind classes for styling components
+## 🧠 Core Features
 
-## Development
+- ✏️ **AI Lesson Generator**  
+  Teachers input subject, grade level, topic, and duration. The AI generates a complete lesson plan including objectives, activities, assessments, and homework.
 
-- Import components from `@/components/ui` in your React components
-- Customize the UI by modifying the Tailwind configuration
+- 📤 **Export Options**  
+  Copy, email, or save lesson plans to your dashboard.
 
-## Note
+- 🔐 **User Authentication**  
+  Secure login for teachers to manage their lesson history.
 
-- The `@/` path alias points to the `src/` directory
-- In your typescript code, don't re-export types that you're already importing
+- 💳 **Monetization via IntaSend**  
+  Premium features unlocked through IntaSend payment gateway.
 
-# Commands
+---
 
-**Install Dependencies**
+## 🛠️ Tech Stack
 
-```shell
-pnpm i
-```
+| Layer       | Technology Used               |
+|-------------|-------------------------------|
+| Frontend    | HTML5, CSS3, JavaScript       |
+| Backend     | Python (Flask)                |
+| Database    | MySQL                         |
+| AI Engine   | OpenAI API (GPT-based)        |
+| Payments    | IntaSend API                  |
 
-**Add Dependencies**
+---
 
-```shell
-pnpm add some_new_dependency
+## 📦 Installation
 
-**Start Preview**
+```bash
+# Clone the repo
+git clone https://github.com/Albertbasey/lessoncraft-ai.git
+cd lessoncraft-ai
 
-```shell
-pnpm run dev
-```
+# Set up virtual environment
+python3 -m venv venv
+source venv/bin/activate
 
-**To build**
+# Install dependencies
+pip install -r requirements.txt
 
-```shell
-pnpm run build
-```
+# Set up MySQL database
+# Create a database named 'lessoncraft'
+# Update DB credentials in config.py
+
+# Run the Flask app
+flask run
+
+🔐 Environment Variables
+Create a .env file and add:
+
+OPENAI_API_KEY=your_openai_key
+INTASEND_API_KEY=your_intasend_key
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=lessoncraft
+
+🧠 AI Prompt Used
+Here’s the exact prompt used to generate lesson plans via OpenAI:
+
+You are an expert Nigerian educator. Generate a detailed lesson plan for the following inputs:
+
+Subject: [subject]  
+Grade Level: [grade level]  
+Topic: [topic]  
+Duration: [duration in minutes]
+
+Include:
+- Lesson objectives  
+- Introduction/warm-up activity  
+- Core content breakdown  
+- Student activities or group work  
+- Assessment questions  
+- Homework or extension tasks
+
+Ensure the lesson is curriculum-aligned, age-appropriate, and engaging for students in Nigeria.
+
+💰 Monetization Strategy
+Freemium Model:
+
+Free: Basic lesson generation
+
+Paid: Curriculum tagging, printable formats, offline access
+
+Pricing:
+
+₦500 per premium lesson
+
+₦3,000 monthly subscription
+
+Payment Gateway: Integrated with IntaSend for secure transactions.
+
+
+📈 Hackathon Goals
+✅ Generate 100+ lesson plans
+
+✅ 10+ premium transactions via IntaSend
+
+✅ Positive feedback from real teachers
+
+✅ Live demo deployed and pitch-ready
+
+📣 Credits
+Built by Aniediong for the SDG 4 Hackathon. Mentorship, feedback, and collaboration welcome!
+
+📬 Contact
+📧 aniediongetim@gmail.com
+linkedin: https://www.linkedin.com/in/aniediong-etim-b6224221b
